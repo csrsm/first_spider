@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fbdd2f4f-1a88-48ba-9761-91074a4b6cae" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XyLfodfbDuOz4aKveer7IVlOYW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cm\ArticleSpider" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cm\ArticleSpider" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="gen_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ArticleSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gen_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ArticleSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.gen_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbdd2f4f-1a88-48ba-9761-91074a4b6cae" name="Default Changelist" comment="" />
+      <created>1582013493922</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582013493922</updated>
+      <workItem from="1582013495125" duration="5916000" />
+      <workItem from="1582083979813" duration="16277000" />
+      <workItem from="1582171150644" duration="2986000" />
+      <workItem from="1582185361576" duration="5598000" />
+      <workItem from="1582259656350" duration="9321000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="367" y="271" key="#xdebugger.evaluate" timestamp="1582266704527">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="367" y="271" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1582266704527" />
+    <state width="1380" height="546" key="DebuggerActiveHint" timestamp="1582268975056">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1380" height="546" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1582268975056" />
+    <state width="1068" height="104" key="GridCell.Tab.0.bottom" timestamp="1582268955680">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1068" height="104" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582268955680" />
+    <state width="1068" height="104" key="GridCell.Tab.0.center" timestamp="1582268955680">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1068" height="104" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582268955680" />
+    <state width="1068" height="104" key="GridCell.Tab.0.left" timestamp="1582268955680">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1068" height="104" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582268955680" />
+    <state width="1068" height="104" key="GridCell.Tab.0.right" timestamp="1582268955680">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1068" height="104" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582268955680" />
+    <state width="1068" height="104" key="GridCell.Tab.1.bottom" timestamp="1582268958106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1068" height="104" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582268958106" />
+    <state width="1068" height="104" key="GridCell.Tab.1.center" timestamp="1582268958106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1068" height="104" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582268958106" />
+    <state width="1068" height="104" key="GridCell.Tab.1.left" timestamp="1582268958106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1068" height="104" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582268958106" />
+    <state width="1068" height="104" key="GridCell.Tab.1.right" timestamp="1582268958106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1068" height="104" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582268958106" />
+    <state x="147" y="126" key="SettingsEditor" timestamp="1582024113867">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="147" y="126" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582024113867" />
+    <state x="940" y="383" width="675" height="655" key="StructurePopup" timestamp="1582085755225">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="940" y="383" width="675" height="655" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1582085755225" />
+    <state x="684" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1582259658653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="684" y="189" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582259658653" />
+    <state x="533" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1582266292503">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="533" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582266292503" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ArticleSpider/pipelines.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ArticleSpider/pipelines.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ArticleSpider/pipelines.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ArticleSpider/pipelines.py</url>
+          <line>104</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ArticleSpider/spiders/jobbole.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="article_item" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ArticleSpider$gen_test.coverage" NAME="gen_test Coverage Results" MODIFIED="1582096377597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ArticleSpider$main.coverage" NAME="main Coverage Results" MODIFIED="1582268955594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
