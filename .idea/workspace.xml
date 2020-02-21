@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbdd2f4f-1a88-48ba-9761-91074a4b6cae" name="Default Changelist" comment="" />
+    <list default="true" id="fbdd2f4f-1a88-48ba-9761-91074a4b6cae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/images/full/05e5875ad44c4f2bc822d099f5e6f77682f73ecd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/images/full/08ca3a2bc01ef6128e807fb0efc328bd5ab0f40d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/images/full/16121c0c9147a69504497cb4976ed31425828bea.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/images/full/2a6ffa629d13fbdebaede096283aa1a9ab562f58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/images/full/401f19931f352c5b6edb63e7c7b38787fa5435e4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/images/full/75b02bdd6fd5c68139a2877c161d033371f37e6e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/images/full/8dc7e55b63f52aadb97466d74a3f8b84c07f3042.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/images/full/8eb180e8f83359af28971eaab28aaaa07668c259.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/images/full/ce7615ee8d5d621508122fe9177b8abeea7e4121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/images/full/fb9de0829e92e788e60bef02bc54c31ff0c195f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleSpider/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleSpider/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/spiders/jobbole.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleSpider/spiders/jobbole.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article.json" beforeDir="false" afterPath="$PROJECT_DIR$/article.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articleExport.json" beforeDir="false" afterPath="$PROJECT_DIR$/articleExport.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,14 +32,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XyLfodfbDuOz4aKveer7IVlOYW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -100,54 +126,61 @@
       <workItem from="1582083979813" duration="16277000" />
       <workItem from="1582171150644" duration="2986000" />
       <workItem from="1582185361576" duration="5598000" />
-      <workItem from="1582259656350" duration="9321000" />
+      <workItem from="1582259656350" duration="13716000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="367" y="271" key="#xdebugger.evaluate" timestamp="1582266704527">
+    <state x="367" y="271" key="#xdebugger.evaluate" timestamp="1582272996611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="367" y="271" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1582266704527" />
+    <state x="367" y="271" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1582272996611" />
+    <state x="443" y="48" key="CommitChangelistDialog2" timestamp="1582274055732">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="443" y="48" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582274055732" />
     <state width="1380" height="546" key="DebuggerActiveHint" timestamp="1582268975056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1380" height="546" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1582268975056" />
-    <state width="1068" height="104" key="GridCell.Tab.0.bottom" timestamp="1582268955680">
+    <state width="1869" height="82" key="GridCell.Tab.0.bottom" timestamp="1582273580856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1068" height="104" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582268955680" />
-    <state width="1068" height="104" key="GridCell.Tab.0.center" timestamp="1582268955680">
+    <state width="1869" height="82" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582273580856" />
+    <state width="1869" height="82" key="GridCell.Tab.0.center" timestamp="1582273580856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1068" height="104" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582268955680" />
-    <state width="1068" height="104" key="GridCell.Tab.0.left" timestamp="1582268955680">
+    <state width="1869" height="82" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582273580856" />
+    <state width="1869" height="82" key="GridCell.Tab.0.left" timestamp="1582273580856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1068" height="104" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582268955680" />
-    <state width="1068" height="104" key="GridCell.Tab.0.right" timestamp="1582268955680">
+    <state width="1869" height="82" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582273580856" />
+    <state width="1869" height="82" key="GridCell.Tab.0.right" timestamp="1582273580856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1068" height="104" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582268955680" />
-    <state width="1068" height="104" key="GridCell.Tab.1.bottom" timestamp="1582268958106">
+    <state width="1869" height="82" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582273580856" />
+    <state width="1869" height="363" key="GridCell.Tab.1.bottom" timestamp="1582273141247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1068" height="104" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582268958106" />
-    <state width="1068" height="104" key="GridCell.Tab.1.center" timestamp="1582268958106">
+    <state width="1869" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582273141247" />
+    <state width="1869" height="363" key="GridCell.Tab.1.center" timestamp="1582273141246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1068" height="104" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582268958106" />
-    <state width="1068" height="104" key="GridCell.Tab.1.left" timestamp="1582268958106">
+    <state width="1869" height="363" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582273141246" />
+    <state width="1869" height="363" key="GridCell.Tab.1.left" timestamp="1582273141246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1068" height="104" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582268958106" />
-    <state width="1068" height="104" key="GridCell.Tab.1.right" timestamp="1582268958106">
+    <state width="1869" height="363" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582273141246" />
+    <state width="1869" height="363" key="GridCell.Tab.1.right" timestamp="1582273141246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1068" height="104" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582268958106" />
+    <state width="1869" height="363" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582273141246" />
     <state x="147" y="126" key="SettingsEditor" timestamp="1582024113867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -175,23 +208,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ArticleSpider/pipelines.py</url>
-          <line>78</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ArticleSpider/pipelines.py</url>
-          <line>74</line>
+          <line>75</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ArticleSpider/pipelines.py</url>
-          <line>104</line>
+          <line>105</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ArticleSpider/spiders/jobbole.py</url>
-          <line>84</line>
-          <option name="timeStamp" value="31" />
+          <line>107</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ArticleSpider/spiders/jobbole.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -203,6 +236,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ArticleSpider$gen_test.coverage" NAME="gen_test Coverage Results" MODIFIED="1582096377597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ArticleSpider$main.coverage" NAME="main Coverage Results" MODIFIED="1582268955594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ArticleSpider$main.coverage" NAME="main Coverage Results" MODIFIED="1582273580849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

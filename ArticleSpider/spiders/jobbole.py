@@ -6,7 +6,6 @@ import json
 
 import scrapy
 from ArticleSpider.items import ArticleItemLoader
-from scrapy import Selector
 from scrapy import Request
 
 from ArticleSpider.items import JobBoleArticleItem
@@ -18,6 +17,7 @@ class JobboleSpider(scrapy.Spider):
     allowed_domains = ['news.cnblogs.com']
     start_urls = ['http://news.cnblogs.com/']
 
+    # 不要立刻爬取所有的新闻
     def parse(self, response):
         """
         1.获取新闻列表页面中的新闻url 并交给scrapy进行下载后调用相应的解析方法
@@ -25,7 +25,8 @@ class JobboleSpider(scrapy.Spider):
         :param response:
         :return:
         """
-        post_nodes = response.css('#news_list .news_block')[:1]
+        # post_nodes = response.css('#news_list .news_block')[1:10]
+        post_nodes = response.css('#news_list .news_block')
         for post_node in post_nodes:
             image_url = post_node.css('.entry_summary a img::attr(src)').extract_first("")
             if not image_url.startswith("https:"):
@@ -34,13 +35,13 @@ class JobboleSpider(scrapy.Spider):
             post_url = post_node.css('h2 a::attr(href)').extract_first("")
             yield Request(url=parse.urljoin(response.url, post_url), meta={"front_image_url": image_url}, callback=self.parse_detail)
 
-        #提取下一页并交给scrapy
-        # next_url = response.xpath("//a[contains(text(),'Next >')]/@href").extract_first("")
-        # yield Request(url=parse.urljoin(response.url, next_url), callback=self.parse)
+        # 提取下一页并交给scrapy
+        next_url = response.xpath("//a[contains(text(),'Next >')]/@href").extract_first("")
+        yield Request(url=parse.urljoin(response.url, next_url), callback=self.parse)
 
-    #详情页面爬取
+    # 详情页面爬取
     def parse_detail(self, response):
-        #判断是否时常规的列表页面详情元素
+        # 判断是否时常规的列表页面详情元素
         match_re = re.match(".*?(\d+)",response.url)
         if match_re:
             post_id = match_re.group(1)
@@ -82,22 +83,28 @@ class JobboleSpider(scrapy.Spider):
             item_loader.add_value("url", response.url)
             item_loader.add_value("front_image_url", response.meta.get("front_image_url", ""))
 
-            article_item = item_loader.load_item()
+            # article_item = item_loader.load_item()
 
             yield Request(url=parse.urljoin(response.url, "/NewsAjax/GetAjaxNewsInfo?contentId={}".format(post_id)),
-                          meta={"article_item": article_item}, callback=self.parse_nums)
+                          meta={"article_item": item_loader, "url": response.url}, callback=self.parse_nums)
 
     def parse_nums(self, response):
         j_data = json.loads(response.text)
-        article_item = response.meta.get("article_item", "")
+        item_loader = response.meta.get("article_item", "")
 
-        praise_nums = j_data["DiggCount"]
-        fav_nums = j_data["TotalView"]
-        comment_nums = j_data["CommentCount"]
+        # praise_nums = j_data["DiggCount"]
+        # fav_nums = j_data["TotalView"]
+        # comment_nums = j_data["CommentCount"]
 
-        article_item["praise_nums"] = praise_nums
-        article_item["fav_nums"] = fav_nums
-        article_item["comment_nums"] = comment_nums
-        article_item["url_object_id"] = common.get_md5(article_item["url"])
+        # article_item["praise_nums"] = praise_nums
+        # article_item["fav_nums"] = fav_nums
+        # article_item["comment_nums"] = comment_nums
+        # article_item["url_object_id"] = common.get_md5(article_item["url"])
+
+        item_loader.add_value("praise_nums", j_data["DiggCount"])
+        item_loader.add_value("fav_nums", j_data["TotalView"])
+        item_loader.add_value("comment_nums", j_data["CommentCount"])
+        item_loader.add_value("url_object_id", common.get_md5(response.meta.get("url", "")))
+        article_item = item_loader.load_item()
 
         yield article_item

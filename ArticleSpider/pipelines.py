@@ -33,6 +33,7 @@ class MysqlPipeline(object):
                 tags, content, create_date)
             values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
         """
+
         params = list()
         params.append(item.get("title", ""))
         params.append(item.get("url", ""))
@@ -143,5 +144,5 @@ class ArticleImagePipeline(ImagesPipeline):
             imgae_file_path = ""
             for ok, value in results:
                 imgae_file_path = value["path"]
-            item["front_image_url"] = imgae_file_path
-        return  item
+            item["front_image_path"] = imgae_file_path
+        return item

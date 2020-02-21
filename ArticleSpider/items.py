@@ -18,10 +18,6 @@ class ArticlespiderItem(scrapy.Item):
     pass
 
 
-def add_jobbole(value):
-    return value + "-cuiming"
-
-
 def date_convert(value):
     match_re = re.match(".*?(\d+.*)", value)
     if match_re:
